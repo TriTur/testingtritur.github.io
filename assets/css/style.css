@@ -1,0 +1,343 @@
+/* Titulos
+font-family: 'Odibee Sans', cursive;
+Texto normal
+font-family: 'Kulim Park', sans-serif; */
+
+.colores{
+    color: #525050; /*FONDO*/
+    color: #9EE019; /*FONDO*/
+    color: #80B415; /*FONDO*/
+    color: #739332; /*Hover menus*/
+    color: brown;   /*Letra menus*/
+}
+
+.bodyProperties{
+    background-color: #525050;
+}
+
+
+.container{
+    width: 100%;
+    background-color: #525050;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Kulim Park', sans-serif;
+}
+
+.content{
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    color: #9EE019;
+}
+
+h1, h3{
+    font-family: 'Odibee Sans', cursive;
+}
+
+#locStyle{
+    text-align: center;
+    color: #9EE019;
+}
+
+/* hr{
+    margin: 0px;
+    border: 1px solid #525050;
+} */
+
+/*ASPECTO INDEX*/
+/* #bodyIndex{
+    background: linear-gradient(-180deg, rgba(0,0,0,0) 0%, #525050 90%),url("../images/exteriorview.jpg");
+    background: -webkit-linear-gradient(270deg, rgba(0,0,0,0) 0%, #525050 100%),url("../images/exteriorview.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+} */
+
+#bodyIndex{
+    background:
+        url("../images/exteriorview.jpg"),
+        url("../images/exteriorview.jpg");
+    background-size: cover;
+    background-blend-mode:luminosity;
+    background-position:
+        calc(50% - 1) calc(50% - 1),
+        calc(50% + 1) calc(50% + 1);
+    filter: brightness(3) grayscale(1);
+}
+
+
+.gotodescription{
+    display: flex;
+    flex-direction: column-reverse;
+    /* background: linear-gradient(-180deg, rgba(0,0,0,0) 0%, #525050 90%),url("../images/exteriorview.jpg"); */
+    margin-bottom: 20px;
+    
+    /* background-position:50% 50%; */
+
+    /* width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    align-items:center;
+    /* align-content: flex-end; */
+}
+
+.gotodescription h1{
+    margin: 0px;
+}
+
+/*FIN ASPECTO INDEX*/
+
+.header{
+    background-color: #9EE019;
+}
+
+.logo{
+    width: 100%;
+    height: 300px;
+    background: url("../images/facebook_cover_photo_2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo{
+    margin: auto;
+    width: 100%;
+}
+
+.menu{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.header a {
+    text-decoration: none;
+    font-family: 'Odibee Sans', cursive;
+    font-weight: bold;
+    color: brown;
+}
+
+.menu li{
+    background-color: #9EE019;
+    font-size: 1em;
+}
+.menu li:hover{
+    background-color: #739332;
+}
+.menu a:hover{
+    background-color: #739332;
+}
+
+.featureDescription ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.f_pool{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding: 15px 0px 15px 0px;
+    background-color: #739332;
+    border-radius: 15px;
+}
+
+input[type=text], input[type=email], input[type=tel], textarea, label{
+    width: 90%;
+    align-self: center;
+}
+
+input, textarea{
+    margin: 5px 0px 5px 0px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type=submit]{
+    width: 20%;
+    align-self: center;
+    margin-top: 10px;
+    background-color: chocolate;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 30px;
+}
+
+
+input[type=submit]:hover{
+    background-color: #525050;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 30px;
+    color: #9EE019;
+}
+
+textarea{
+    resize: none;
+}
+
+.footer{
+    background-color: #739332;
+    color: white;
+    font-family: 'Odibee Sans', cursive;
+    text-align: center;
+}
+
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+    .logo{
+        height: 180px;
+    }
+
+    .container{
+        width: 100%;
+        margin: auto;
+        background-color: #525050;
+    }
+
+    .content{
+        background-color: #525050;
+        width: 90%;
+        margin: auto;
+    }
+
+    .footer{
+        margin-top: 10px;
+    }
+
+    .feature{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        background-color: white;
+        border-radius: 15px;
+        margin: 3px 0px 3px 0px;
+    }
+
+    .featureDescription{
+        padding: 5px;
+    }
+
+    .featureDescription h3{
+        margin: 5px 0px 5px 0px;
+    }
+
+    .imgDetail{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    iframe{
+        width: 100%;
+        height: 250px;
+        border: none;
+        border-radius: 15px;
+    }
+
+    .bodyProperties{
+        background-color: #525050;
+    }
+
+    input[type=submit]{
+        width: 90%;
+        align-self: center;
+    }
+    
+  }
+  
+  /* Large devices (laptops/desktops, 768px and up) */
+  @media only screen and (min-width: 768px) {
+
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+
+    .header{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+
+    
+    .content{
+        margin: auto;
+        width: 80%;
+        background-color: #525050;
+    }
+
+    .footer{
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    /*Menu en linea*/
+    .menu li {
+        display: inline;
+        font-size: 1.5em;
+    }
+
+    .menu li > a{
+        display: inline-block;
+        padding: 0px 5px 0px 5px;    
+    }
+
+    .feature{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: auto;
+        background-color: white;
+        border-radius: 15px;
+        margin: 5px 0px 5px 0px;
+    }
+
+    .featureDescription{
+        padding-left: 15px;
+    }
+
+    .featureImg{
+        max-width: 35%;
+    }
+
+    .imgDetail{
+        width: 100%;
+        max-width: 640px;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 12px 0px 0px 12px;
+    }
+
+    iframe{
+        width: 100%;
+        border: none;
+        height: 400px;
+    }
+
+    #iframecontainer{
+        height: 400px;
+    }
+
+  }

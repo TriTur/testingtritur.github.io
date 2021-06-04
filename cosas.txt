@@ -1,0 +1,30 @@
+imagenes free -> morguefile.com
+
+Tipos de letras:
+Odibee Sans -> Titulos/menus?
+Kulim Park -> Textos normales
+
+Paleta de colores del Logo:
+Fondo gris -> #525050
+Verde mas claro -> #9EE019
+Verde -> #80B415
+Verde mas oscuro -> #739332
+
+
+Repetir menu y footer en las paginas
+
+Buscar algun sitio para hacer logos :/
+
+INICIO
+
+Index con foto en grande a la izquierda texto sencillo y breve descripcion a la derecha
+poner un gradient o similar a la foto y un enlace para entrar a la pagina descripcion.
+
+DESCRIPCION
+Pequeñas fotos con titulo y descripcion a la derecha/izquierda
+
+DONDE ESTAMOS
+Un frame con google maps y la direccion en texto plano
+
+CONTACTO
+Formulario con nombre mail y descripcion para dudas/sugerencias
